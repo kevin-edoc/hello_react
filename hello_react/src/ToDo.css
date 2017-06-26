@@ -18,6 +18,15 @@
   font-size: large;
 }
 
+h1{
+  text-align: center;
+}
+
+.list-group{
+  min-height: 150px;
+  background-color: rgba(252, 248, 227, 0.19);
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
