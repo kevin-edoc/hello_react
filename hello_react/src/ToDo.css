@@ -23,8 +23,18 @@ h1{
 }
 
 .list-group{
-  min-height: 150px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  min-height: 144px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee;
   background-color: rgba(252, 248, 227, 0.19);
+}
+
+.list-group-item{
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
